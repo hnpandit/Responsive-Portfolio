@@ -224,26 +224,31 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
- {
   .container {
-    width: 100%;
     max-width: 980px;
   }
- }
+  body {
+    max-width: 980px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  {
     .container {
-      width: 100%;
       max-width: 768px;
-  }
+    }
+    body {
+      max-width: 768px;
+    }
  }
 
  @media only screen and (max-width: 640px) {
-  {
     .container {
-      width: 100%;
       max-width: 640px;
+    }
+    body {
+      max-width: 640px;
+    }
+    #masthead {
+      position: static;
+    }
   }
- }
