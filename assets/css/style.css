@@ -1,3 +1,10 @@
+/* 
+<!-- Rutgers Coding BootCamp - Full Stack Developer - Mon/Wed -->
+<!-- Homework Responsive Portfolio - Himanshu Pandit -->
+<!-- I am using template provided by TA since I did wireframe -->
+<!-- November 10, 2018-->
+*/
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -215,3 +222,28 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 980px) {
+ {
+  .container {
+    width: 100%;
+    max-width: 980px;
+  }
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  {
+    .container {
+      width: 100%;
+      max-width: 768px;
+  }
+ }
+
+ @media only screen and (max-width: 640px) {
+  {
+    .container {
+      width: 100%;
+      max-width: 640px;
+  }
+ }
